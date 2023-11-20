@@ -9,5 +9,14 @@ public class Pegawai extends Warung{
                 3. Memasak dengan sepenuh hati
                         """);
     }
+
+    @Override
+    public void CaraBayar() {
+    }
+
+    @Override
+    public void Absen() {
+        System.out.println("Pegawai Absen pada jam "+ JamMasuk);
+    }
     
 }

@@ -9,5 +9,17 @@ public class Pembeli extends Warung {
                 2.Diharapkan ngantri
                 """);
     }
+
+    @Override
+    public void CaraBayar() {
+        System.out.println("Pembayaran menggunakan Cash");
+    }
+
+    void CaraBayar(String Bayar){
+        System.out.println("Pembayaran Menggunakan Qris");
+    }
+    
+    @Override
+    public void Absen() {}
     
 }
